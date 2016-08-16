@@ -1,0 +1,11 @@
+ul {
+  list-style: none;
+}
+
+h2, h1 {
+  text-transform: capitalize;
+}
+
+.remove {
+  text-decoration: none;
+}
