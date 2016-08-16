@@ -9,6 +9,7 @@ Router.map(function() {
   this.route('about');
   this.route('news');
   this.route('entertainment');
+  this.route('story',{path: '/story/:story_id'});
 });
 
 export default Router;

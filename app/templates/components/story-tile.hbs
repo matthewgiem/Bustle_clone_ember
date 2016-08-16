@@ -1,1 +1,6 @@
-{{yield}}
+<li>
+  <h1>{{story.title}}</h1>
+  type: {{story.type}} by{{story.author}}
+  <p>{{#link-to 'story' story.id}}<img src={{story.picture}} alt={{story.type}} />{{/link-to}}</p>
+  date: {{story.date}}
+</li>
